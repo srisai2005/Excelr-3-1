@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+}
+header{
+    background-color: #4a4e69;   
+    color: #f2e9e4;  
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+}
+img{
+    width: 15%;
+    border-radius: 50%;
+}
+section{
+    background-color: #9a8c98;   
+    color: #22223b; 
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    
+}
+body{
+     background-color: #f2e9e4;  
+     color: #22223b; 
+      margin: 20px;
+    
+}
+table {
+  
+    margin-top: 20px;
+}
+td,th{
+    border: 2px solid #dd3510;
+    text-align: center;
+
+}
+form input,font textarea{
+    width: 100%;
+    padding: 10px;
+}
+.submit{
+    background-color: #5e73f9;
+}

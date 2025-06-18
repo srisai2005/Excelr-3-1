@@ -3,10 +3,104 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="name" content="srisai computer science mern full stack ">
+    <meta name="description" content="profile page of srisai yadav.A java full stack devops ">
+    <meta name="author" content="srisai">
+    <meta http-equiv="refresh" content="10" url="http://localhost:8080/profile">
+    <meta name="robots" content="index,follow">
+    <link rel="stylesheet" href="./assests/css/style.css">
     <title>Document</title>
 </head>
 <body>
-    <h1>hello world</h1>
-    
+    <header>
+        <h1>Srisai Yadav's Profile</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Personal information</h2>
+            <img src="./assests/images/ss.jpg">
+            <p>Name: Srisai Yadav</p>
+             <p>Educational Qualification: B.Tech</p>
+              <p>College: MRUH</p>
+        </section>
+        <section>
+            <h2>Academic Performance</h2>
+            <table >
+                 <thead>
+                    <td>Semester</td>
+                    <td>Subject</td>
+                    <td>Marks</td>
+                 </thead>
+                 <tbody style="gap: 1em;">
+                    <tr>
+                        <td>1st</td>
+                        <td>maths, physics, python</td>
+                        <td>8.5</td>
+                    </tr>
+                    <tr>
+                        <td>2nd</td>
+                        <td>english, web development, java programming</td>
+                        <td>8.7</td>
+                    </tr>
+                    <tr>
+                        <td>3rd</td>
+                        <td>computer networks, database management, DSA</td>
+                        <td>9.0</td>
+                    </tr>
+                    <tr>
+                        <td>4th</td>
+                        <td>c++, Data Mining, FAM</td>
+                        <td>9.2</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <!-- Technical Skills -->
+              <section>
+                <h2>Technical Skills</h2>
+                <ul>
+                    <li><strong>Operating System: </strong> Windows & Linux</li>
+                    <li><strong>Languages: </strong> C, C++, Java, Python, JavaScript</li>
+                    <li><strong>Front end frameworks: </strong> HTML, CSS, Bootstrap, ReactJS, NodeJS</li>
+                    <li><strong>Server : </strong>Spring,Stack </li>
+                    <li><strong>Back end frameworks: </strong> Express, Django</li>
+                    <li><strong>Database: </strong> MySQL,MongoDB,Oracle</li>
+                </ul>
+                <!-- Hobbies and Interest -->
+              </section>
+              <section>
+                <h2>Hobbies and Interests</h2>
+                <ol>
+                    <li>Playing Cricket</li>
+                    <li>Reading books</li>
+                    <li>Travelling</li>
+                    <li>Listening to Music</li>
+                </ol>
+              </section>
+              <section>
+                <h2>Contact</h2>
+              <form action="#">
+                    <div class="email">
+                         <label for="">Email</label><br>
+                        <input type="email" style="width: 99%;">
+                    </div>
+                    <div class="date">
+                  <label for="">Went to callback</label><br>
+                 <input type="datetime-local" style="width: 99%;">
+                 </div>
+                  <div class="contact">
+                    <label for="">Contact Number</label><br>
+                    <input type="number" style="width: 99%;">
+                  </div>
+                  <div>
+                    <label for="description">Description</label><br>
+                    <textarea name="description" style="width: 100%; height: 200px;"></textarea>
+                  </div>
+                   <div>
+                    <input type="submit" class="submit">
+                   </div>
+                </form>
+              </section>
+    </main>
 </body>
 </html>
